@@ -457,11 +457,7 @@ npm start
 
 ## ⚠️ Disclaimer
 
-This project is developed for **educational and portfolio purposes** by **Agha Wafa Abbas** as part of academic and professional development at:
-- University of Portsmouth, UK
-- Arden University, UK
-- Pearson, UK
-- IVY College of Management Sciences, Lahore, Pakistan
+This project is developed for **educational and portfolio purposes** by **Agha Wafa Abbas** as part of academic and professional development:
 
 The AI financial advice provided by this application is **for informational purposes only** and should **not** be considered as professional financial advice. Users should consult qualified financial advisors for important financial decisions.
 
