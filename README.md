@@ -78,33 +78,32 @@ FinanceAI provides:
 | 🌙 Dark/Light Mode | Toggle between themes |
 | 🌍 Multi-currency | PKR, CAD, USD, GBP, EUR, AED, SAR, AUD |
 | 📱 PWA Ready | Installable as mobile app |
-| ⏳ Loader Screen | Professional loading animation |
 
 ---
 
 ## 🛠️ Technology Stack
 
 ### Frontend:
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| React | 18.x | UI Framework |
-| Tailwind CSS | 3.x | Styling |
-| Recharts | Latest | Data Visualization |
-| Axios | Latest | API Communication |
-| jsPDF | Latest | PDF Generation |
-| Context API | Built-in | State Management |
+| Technology | Purpose |
+|-----------|---------|
+| React 18 | UI Framework |
+| Tailwind CSS 3 | Styling |
+| Recharts | Data Visualization |
+| Axios | API Communication |
+| jsPDF | PDF Generation |
+| Context API | State Management |
 
 ### Backend:
-| Technology | Version | Purpose |
-|-----------|---------|---------|
-| Django | 6.0.5 | Web Framework |
-| Django REST Framework | 3.17 | API Development |
-| SimpleJWT | Latest | JWT Authentication |
-| PostgreSQL | 17 | Database |
-| Groq AI (Llama 3.3) | Latest | AI Analysis & Chat |
-| Python Dotenv | Latest | Environment Variables |
-| Pillow | Latest | Image Processing |
-| Django CORS Headers | Latest | Cross-Origin Requests |
+| Technology | Purpose |
+|-----------|---------|
+| Django 6.0.5 | Web Framework |
+| Django REST Framework | API Development |
+| SimpleJWT | JWT Authentication |
+| PostgreSQL 17 | Database |
+| Groq AI (Llama 3.3) | AI Analysis & Chat |
+| Python Dotenv | Environment Variables |
+| Pillow | Image Processing |
+| Django CORS Headers | Cross-Origin Requests |
 
 ---
 
@@ -146,26 +145,26 @@ FinanceAI provides:
 
 ```
 finance-saas/
-├── backend/                    
-│   ├── core/                   
-│   │   ├── settings.py         
-│   │   ├── urls.py             
-│   │   └── wsgi.py             
-│   ├── users/                  
-│   │   ├── models.py           
-│   │   ├── views.py            
-│   │   ├── urls.py             
-│   │   └── ai_service.py       
-│   ├── expenses/               
-│   │   ├── models.py           
-│   │   ├── views.py            
-│   │   ├── serializers.py      
-│   │   └── urls.py             
+├── backend/
+│   ├── core/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── users/
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── ai_service.py
+│   ├── expenses/
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── serializers.py
+│   │   └── urls.py
 │   ├── .gitignore
 │   └── manage.py
-├── frontend/                   
+├── frontend/
 │   ├── src/
-│   │   ├── components/         
+│   │   ├── components/
 │   │   │   ├── AIChat.js
 │   │   │   ├── Categories.js
 │   │   │   ├── ExpenseChart.js
@@ -174,23 +173,23 @@ finance-saas/
 │   │   │   ├── SearchFilter.js
 │   │   │   ├── Footer.js
 │   │   │   └── Loader.js
-│   │   ├── pages/              
+│   │   ├── pages/
 │   │   │   ├── Dashboard.js
 │   │   │   ├── Login.js
 │   │   │   ├── Register.js
 │   │   │   ├── Profile.js
 │   │   │   └── Budget.js
-│   │   ├── context/            
+│   │   ├── context/
 │   │   │   ├── AuthContext.js
 │   │   │   └── ThemeContext.js
-│   │   └── services/           
+│   │   └── services/
 │   │       └── api.js
 │   ├── public/
-│   │   ├── manifest.json       
-│   │   └── sw.js               
+│   │   ├── manifest.json
+│   │   └── sw.js
 │   └── package.json
-├── Screenshots/                
-├── LICENSE                     
+├── Screenshots/
+├── LICENSE
 └── README.md
 ```
 
@@ -280,62 +279,167 @@ npm start
 
 ## 📸 Screenshots
 
-### 1. Register Page
-![Register](Screenshots/1_register.png)
+### 1. 📝 Register Page
+![Register](Screenshots/Register.PNG)
 
-### 2. Login Page
-![Login](Screenshots/2_login.png)
+### 2. 🔐 Login Page
+![Login](Screenshots/Login.PNG)
 
-### 3. Loader Screen
-![Loader](Screenshots/3_loader.png)
+### 3. ⏳ Loader Screen
+![Loader](Screenshots/Loader.PNG)
 
-### 4. Dashboard
-![Dashboard](Screenshots/4_dashboard.png)
+### 4. 🌙 Dark Mode Dashboard
+![Dark Mode](Screenshots/Dark%20Mode.PNG)
 
-### 5. Balance Tracker
-![Balance](Screenshots/5_balance_tracker.png)
+### 5. ☀️ Light Mode Dashboard
+![Light Mode](Screenshots/Light%20Mode.PNG)
 
-### 6. Add Expense
-![Add Expense](Screenshots/6_add_expense.png)
+### 6. 💰 Income Set
+![Income Set](Screenshots/Income%20Set.PNG)
 
-### 7. AI Analysis
-![AI Analysis](Screenshots/7_ai_analysis.png)
+### 7. 💰 Income Updated
+![Income Updated](Screenshots/Income%20Set%20Update.PNG)
 
-### 8. AI Chat
-![AI Chat](Screenshots/8_ai_chat.png)
+### 8. 🧾 Rent Expense Adding
+![Rent Expense](Screenshots/Rent%20Expense%201.PNG)
 
-### 9. Expense Charts
-![Charts](Screenshots/9_charts.png)
+### 9. ✅ Rent Expense Saved
+![Rent Saved](Screenshots/Rent%20Expense%201%20Saved.PNG)
 
-### 10. Monthly Chart
-![Monthly](Screenshots/10_monthly_chart.png)
+### 10. 🍔 Food Expense Adding
+![Food Expense](Screenshots/Expense%202%20Food.PNG)
 
-### 11. Categories
-![Categories](Screenshots/11_categories.png)
+### 11. ✅ Food Expense Saved
+![Food Saved](Screenshots/Expense%202%20Food%20Saved.PNG)
 
-### 12. Budget Planner
-![Budget](Screenshots/12_budget_planner.png)
+### 12. 🚗 Transport Expense Adding
+![Transport Expense](Screenshots/Transport%20Expense%203.PNG)
 
-### 13. Saving Goals
-![Goals](Screenshots/13_saving_goals.png)
+### 13. ✅ Transport Expense Saved
+![Transport Saved](Screenshots/Transport%20Expense%203%20Saved.PNG)
 
-### 14. Search & Filter
-![Search](Screenshots/14_search_filter.png)
+### 14. 🎬 Entertainment Expense Adding
+![Entertainment Expense](Screenshots/Expense%204%20Entertainment.PNG)
 
-### 15. Export PDF
-![PDF](Screenshots/15_export_pdf.png)
+### 15. ✅ Entertainment Expense Saved
+![Entertainment Saved](Screenshots/Expense%204%20Entertainment%20Saved.PNG)
 
-### 16. Email Report
-![Email](Screenshots/16_email_report.png)
+### 16. 📊 Dashboard Balance Tracker
+![Balance Tracker](Screenshots/Dashbaord%20Balance%20Tracker.PNG)
 
-### 17. Profile
-![Profile](Screenshots/17_profile.png)
+### 17. 🤖 AI Analysis
+![AI Analysis](Screenshots/Al%20Analysis.PNG)
 
-### 18. Dark Mode
-![Dark](Screenshots/18_dark_mode.png)
+### 18. 📈 AI Analysis Results
+![AI Results](Screenshots/AI%20Analysis%20Results.PNG)
 
-### 19. Light Mode
-![Light](Screenshots/19_light_mode.png)
+### 19. 💬 AI Chat Assistant
+![AI Chat](Screenshots/AI%20Chat%20Assistant.PNG)
+
+### 20. 💬 AI Chat 2
+![AI Chat 2](Screenshots/AI%20Chat%20Assistant%202.PNG)
+
+### 21. 💬 AI Chat 3
+![AI Chat 3](Screenshots/AI%20Chat%20Assistant%203.PNG)
+
+### 22. 💬 AI Chat 4
+![AI Chat 4](Screenshots/AI%20Chat%20Assistant%204.PNG)
+
+### 23. 📊 Charts 1
+![Charts 1](Screenshots/Charts%201.PNG)
+
+### 24. 📊 Charts 2
+![Charts 2](Screenshots/Charts%202.PNG)
+
+### 25. 🍔 Food Category Adding
+![Food Category](Screenshots/Food%20Category%20going%20to%20add.PNG)
+
+### 26. ✅ Food Category Saved
+![Food Category Saved](Screenshots/Food%20Category%20Saved.PNG)
+
+### 27. 🚗 Transport Category Adding
+![Transport Category](Screenshots/Transport%20Category%20is%20going%20to%20be%20add.PNG)
+
+### 28. ✅ Transport Category Added
+![Transport Category Added](Screenshots/Transport%20Category%20Added.PNG)
+
+### 29. 🏠 Rent Category Adding
+![Rent Category](Screenshots/Rent%20Category%20is%20going%20to%20be%20add.PNG)
+
+### 30. ✅ Rent Category Added
+![Rent Category Added](Screenshots/Rent%20Catgory%20Added.PNG)
+
+### 31. 🎬 Entertainment Category Adding
+![Entertainment Category](Screenshots/Entertainment%20Category%20is%20going%20to%20be%20add.PNG)
+
+### 32. ✅ Entertainment Category Added
+![Entertainment Category Added](Screenshots/Entertainment%20Category%20added.PNG)
+
+### 33. 📅 Budget Planner Adding
+![Budget Adding](Screenshots/Budget%20Planner%20is%20going%20to%20be%20add.PNG)
+
+### 34. ✅ Budget Saved
+![Budget Saved](Screenshots/Budget%20Saved.PNG)
+
+### 35. 🎯 Saving Goals Adding
+![Goals Adding](Screenshots/Saving%20Goals%20are%20adding.PNG)
+
+### 36. 🎯 Saving Goals Adding 2
+![Goals Adding 2](Screenshots/Saving%20Goals%20are%20adding%202.PNG)
+
+### 37. ✅ Saving Goals Added
+![Goals Added](Screenshots/Saving%20Goals%20Added.PNG)
+
+### 38. ✅ Saving Goals Added 2
+![Goals Added 2](Screenshots/Saving%20Goals%20added%202.PNG)
+
+### 39. ✅ Saving Goals Added 3
+![Goals Added 3](Screenshots/Saving%20Goals%20added%203.PNG)
+
+### 40. 📱 New Phone Goal
+![New Phone Goal](Screenshots/New%20Phone%20Saving%20Goals%20are%20adding.PNG)
+
+### 41. 🔍 Search Rent Filter
+![Search Rent](Screenshots/Search%20Rent.PNG)
+
+### 42. 🔍 Clearing Filter
+![Clear Filter](Screenshots/Clearing%20Rent%20apply%20filter.PNG)
+
+### 43. 📄 Exporting PDF
+![Export PDF](Screenshots/Exporting%20PDF.PNG)
+
+### 44. 📄 PDF Report
+![PDF Report](Screenshots/PDF%20report%20Finally.PNG)
+
+### 45. 📧 Email Sending
+![Email Sending](Screenshots/Email%20Sending.PNG)
+
+### 46. 📧 Email Received
+![Email Received](Screenshots/Email%20recieved.PNG)
+
+### 47. 👤 Profile Modal
+![Profile](Screenshots/Profile%20Modal.PNG)
+
+### 48. 🖼️ Profile Picture Changed
+![Profile Picture](Screenshots/Profile%20Picture%20Changed.PNG)
+
+### 49. ✏️ Editing Profile
+![Edit Profile](Screenshots/Editing%20Profile.PNG)
+
+### 50. ✅ Profile Updated
+![Profile Updated](Screenshots/Profile%20Updated.PNG)
+
+### 51. ✏️ Editing Expenses
+![Edit Expenses](Screenshots/Editing%20Expenses.PNG)
+
+### 52. ✅ Expenses Updated
+![Expenses Updated](Screenshots/Expenses%20Udpated.PNG)
+
+### 53. 🗑️ Delete Expenses
+![Delete Expenses](Screenshots/Delete%20Expenses%20Rent.PNG)
+
+### 54. 🔧 Django Administration
+![Django Admin](Screenshots/Django%20Administration.PNG)
 
 ---
 
@@ -345,7 +449,7 @@ npm start
 - ✅ Password hashing (Django built-in)
 - ✅ Environment variables for all secrets
 - ✅ CORS protection
-- ✅ User data isolation (each user sees only their data)
+- ✅ User data isolation
 - ✅ Secure file uploads with Pillow
 - ✅ GitHub push protection
 
