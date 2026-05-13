@@ -53,7 +53,7 @@ FinanceAI provides:
 | 👨‍🎓 Students | Track pocket money, rent, food expenses |
 | 💼 Freelancers | Manage irregular income and expenses |
 | 👨‍💼 Employees | Monthly salary planning and budgeting |
-| 🌍 Immigrants | Manage expenses in new countries (Canada focus) |
+| 🌍 Immigrants | Manage expenses in new countries |
 | 🏢 Small Business Owners | Track daily expenses and profit/loss |
 
 ---
